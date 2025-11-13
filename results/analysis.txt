@@ -1,0 +1,63 @@
+Best Model Configuration:
+  Architecture: LSTM
+  Optimizer: RMSprop
+  Sequence Length: 100
+  Stability Strategy: Clipping
+Highest Validation Accuracy: 0.8041
+
+Full Results:
+architecture optimizer clip_strategy  length  accuracy
+         RNN      Adam           NaN      25   0.67128
+         RNN      Adam           NaN      50   0.58864
+         RNN      Adam           NaN     100   0.53136
+         RNN      Adam      Clipping      25   0.67212
+         RNN      Adam      Clipping      50   0.66348
+         RNN      Adam      Clipping     100   0.66284
+         RNN       SGD           NaN      25   0.54060
+         RNN       SGD           NaN      50   0.51056
+         RNN       SGD           NaN     100   0.50348
+         RNN       SGD      Clipping      25   0.56888
+         RNN       SGD      Clipping      50   0.51432
+         RNN       SGD      Clipping     100   0.50296
+         RNN   RMSprop           NaN      25   0.68632
+         RNN   RMSprop           NaN      50   0.68828
+         RNN   RMSprop           NaN     100   0.53440
+         RNN   RMSprop      Clipping      25   0.68036
+         RNN   RMSprop      Clipping      50   0.62908
+         RNN   RMSprop      Clipping     100   0.71624
+        LSTM      Adam           NaN      25   0.69384
+        LSTM      Adam           NaN      50   0.74284
+        LSTM      Adam           NaN     100   0.78180
+        LSTM      Adam      Clipping      25   0.69080
+        LSTM      Adam      Clipping      50   0.74536
+        LSTM      Adam      Clipping     100   0.79572
+        LSTM       SGD           NaN      25   0.66600
+        LSTM       SGD           NaN      50   0.70848
+        LSTM       SGD           NaN     100   0.74472
+        LSTM       SGD      Clipping      25   0.66488
+        LSTM       SGD      Clipping      50   0.72360
+        LSTM       SGD      Clipping     100   0.76028
+        LSTM   RMSprop           NaN      25   0.67900
+        LSTM   RMSprop           NaN      50   0.74164
+        LSTM   RMSprop           NaN     100   0.80120
+        LSTM   RMSprop      Clipping      25   0.68976
+        LSTM   RMSprop      Clipping      50   0.74892
+        LSTM   RMSprop      Clipping     100   0.80412
+     Bi-LSTM      Adam           NaN      25   0.68384
+     Bi-LSTM      Adam           NaN      50   0.73896
+     Bi-LSTM      Adam           NaN     100   0.77112
+     Bi-LSTM      Adam      Clipping      25   0.69084
+     Bi-LSTM      Adam      Clipping      50   0.74088
+     Bi-LSTM      Adam      Clipping     100   0.79548
+     Bi-LSTM       SGD           NaN      25   0.66096
+     Bi-LSTM       SGD           NaN      50   0.70416
+     Bi-LSTM       SGD           NaN     100   0.76864
+     Bi-LSTM       SGD      Clipping      25   0.66952
+     Bi-LSTM       SGD      Clipping      50   0.70696
+     Bi-LSTM       SGD      Clipping     100   0.76616
+     Bi-LSTM   RMSprop           NaN      25   0.69300
+     Bi-LSTM   RMSprop           NaN      50   0.73588
+     Bi-LSTM   RMSprop           NaN     100   0.79976
+     Bi-LSTM   RMSprop      Clipping      25   0.68644
+     Bi-LSTM   RMSprop      Clipping      50   0.74020
+     Bi-LSTM   RMSprop      Clipping     100   0.79628

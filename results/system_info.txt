@@ -1,0 +1,12 @@
+======================================================================
+SYSTEM INFORMATION
+======================================================================
+platform: Darwin
+platform_version: Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:33 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T8122
+processor: arm
+python_version: 3.12.2
+ram_gb: 16.0
+cpu_count: 8
+cpu_count_logical: 8
+cuda_available: False
+======================================================================
